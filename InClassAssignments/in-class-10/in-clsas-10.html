@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click to Change Text</title>
+    <style>
+        .my-div {
+            padding: 20px;
+            border: 1px solid #000;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="my-div" id="myDiv">initial text</div>
+
+    <script>
+        document.getElementById("myDiv").addEventListener("click", function() {
+            this.textContent = "added text!";
+            this.style.backgroundColor = "yellow";
+        });
+    </script>
+</body>
+</html>
+
