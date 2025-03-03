@@ -1,5 +1,0 @@
-higher order functions
-functional
-dot notation or square bracket
-short-circuit
-declarative programming
